@@ -76,6 +76,7 @@ To enable full screen, add `margin: 0` to <code>body</code> style, and confirm y
 You can also customize chatbot with different configuration
 
 ```html
+
 <script type="module">
   import Chatbot from 'https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js';
   Chatbot.init({
@@ -165,11 +166,12 @@ You can also customize chatbot with different configuration
         feedback: {
           color: '#303235',
         },
-        // footer: {
-        //   textColor: '#303235',
-        //   text: 'Powered by',
-        //   company: 'Flowise',
-        //   companyLink: 'https://flowiseai.com',
+        footer: {
+          textColor: '#303235',
+          text: 'Powered by',
+          company: 'Flowise',
+          companyLink: 'https://flowiseai.com',
+          display: 'none';
         },
         disclaimer: {
           title: 'Disclaimer',
