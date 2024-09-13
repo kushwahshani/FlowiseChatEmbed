@@ -1341,6 +1341,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
             poweredByTextColor={props.poweredByTextColor}
             botContainer={botContainer}
           /> */}
+          
         </div>
       </div>
       {sourcePopupOpen() && <Popup isOpen={sourcePopupOpen()} value={sourcePopupSrc()} onClose={() => setSourcePopupOpen(false)} />}

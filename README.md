@@ -165,11 +165,11 @@ You can also customize chatbot with different configuration
         feedback: {
           color: '#303235',
         },
-        footer: {
-          textColor: '#303235',
-          text: 'Powered by',
-          company: 'Flowise',
-          companyLink: 'https://flowiseai.com',
+        // footer: {
+        //   textColor: '#303235',
+        //   text: 'Powered by',
+        //   company: 'Flowise',
+        //   companyLink: 'https://flowiseai.com',
         },
         disclaimer: {
           title: 'Disclaimer',
